@@ -1,6 +1,11 @@
 
 # Jarkom Modul 1
 
+|      Nama Anggota       |     NRP     |
+| ---                     | ---         |
+| Oktavia Anggraeni P.    | 5027211001  |
+| Brigita Naraduhita P.P. | 5027211055  |
+
 1. Pada soal tersebut diketahui bahwa user melakukan aktivitas salah satunya mengunggah suatu file.
 **Cara mengerjakan:**
 - Download dan buka file yang telah disediakan bertipe wireshark capture file
