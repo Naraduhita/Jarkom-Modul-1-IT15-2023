@@ -18,7 +18,24 @@
    - Ketikkan nilai yang didapat sesuai soal
    - Lalu flag akan ditampilkan
  `Flag:  Jarkom2023{y0u_r_g00d_4t_4dr3ssing_MoDvEwK76448553}`
+**Dokumentasi**
+<p align="center">
+<img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/ad6b553f-9713-4e17-ae06-810597c068f4" height="150"/>
+</p>
 
+<p align="center">
+<img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/f9c5fa48-e76b-4731-8dae-d6f92ea70812" height="300"/>
+</p>
+
+ <p align="center">
+  <img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/e58f3f89-3092-4122-bdc6-8ff0eca8617e" height="300"/>
+</p>
+ 
+
+  <p align="center">
+  <img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/4f07f2fa-a6ae-4640-8b8e-23e48b27d042" height="300"/>
+</p>
+  
  4. Pada soal tersebut diminta untuk menemukan nilai checksum yang didapat dari header pada paket nomor 130.
 **Cara mengerjakan:**
 - Mendownload dan buka file yang telah disediakan bertipe wireshark capture file
