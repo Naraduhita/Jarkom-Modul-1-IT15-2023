@@ -40,15 +40,15 @@
  4. Pada soal tersebut diminta untuk menemukan nilai checksum yang didapat dari header pada paket nomor 130.
 
 **Cara mengerjakan:**
-  - Mendownload dan buka file yang telah disediakan bertipe wireshark capture file
-  - Lakukan pencarian untuk paket nomor 130 sesuai dengan perintah
-  - Analisis paket tersebut dan mencari nilai checksum. Di dapatkan: `Checksum: 0x18e5`
-  - Lalu buka terminal dan ketikkan `ncat 10.21.78.111 13591` untuk mengakses ke alamat IP 10.21.78.111 pada port 13591 menggunakan netcat.
-  - Ketikkan  nilai checksum `0x18e5` sesuai dengan nilai yang didapatkan.
-  - Lalu flag akan ditampilkan
+   - Mendownload dan buka file yang telah disediakan bertipe wireshark capture file
+   - Lakukan pencarian untuk paket nomor 130 sesuai dengan perintah
+   - Analisis paket tersebut dan mencari nilai checksum. Di dapatkan: `Checksum: 0x18e5`
+   - Lalu buka terminal dan ketikkan `ncat 10.21.78.111 13591` untuk mengakses ke alamat IP 10.21.78.111 pada port 13591 menggunakan netcat.
+   - Ketikkan  nilai checksum `0x18e5` sesuai dengan nilai yang didapatkan.
+   - Lalu flag akan ditampilkan
 `Flag:  Jarkom2023{ch3cksum_is_u5eful_0xj7l4}`
 
-**Dokumentasi:**
+
 
 7. Pada soal tersebut diminta untuk menyebutkan jumlah packet yang menuju IP 184.87.193.88
 **Cara mengerjakan:**
