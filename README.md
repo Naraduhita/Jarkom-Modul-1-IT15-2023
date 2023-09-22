@@ -7,6 +7,7 @@
 | Brigita Naraduhita P.P. | 5027211055  |
 
 1. Pada soal tersebut diketahui bahwa user melakukan aktivitas salah satunya mengunggah suatu file.
+
 **Cara mengerjakan:**
    - Download dan buka file yang telah disediakan bertipe wireshark capture file
    - Klikkan find dan ketikkan `ftp || ftp-data` untuk mengambil paket-paket yang terkait dengan protokol FTP (File Transfer Protocol) atau paket data yang dikirim melalui FTP. 
