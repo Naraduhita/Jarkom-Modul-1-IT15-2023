@@ -20,19 +20,19 @@
 <img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/f9c5fa48-e76b-4731-8dae-d6f92ea70812" height="300"/>
 </p>
 
-  - Lalu klik paket satu dibawahnya yang paket ACK, ACK menandakan data sebelumnya telah diterima dan penerima siap menerima data berikutnya.
-  - Lalu analisis dan cari sequence number (raw), acknowledge number (raw) pada paket tersebut  yang menunjukkan response dari aktivitas tersebut.
+   - Lalu klik paket satu dibawahnya yang paket ACK, ACK menandakan data sebelumnya telah diterima dan penerima siap menerima data berikutnya.
+   - Lalu analisis dan cari sequence number (raw), acknowledge number (raw) pada paket tersebut  yang menunjukkan response dari aktivitas tersebut.
  <p align="center">
   <img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/e58f3f89-3092-4122-bdc6-8ff0eca8617e" height="300"/>
 </p>
  
-  - Lalu buka terminal dan ketikkan `ncat 10.21.78.111 12345` untuk mengakses ke alamat IP 10.21.78.111 pada port 12345 menggunakan netcat.
-  - Ketikkan nilai yang didapat sesuai soal
+   - Lalu buka terminal dan ketikkan `ncat 10.21.78.111 12345` untuk mengakses ke alamat IP 10.21.78.111 pada port 12345 menggunakan netcat.
+   - Ketikkan nilai yang didapat sesuai soal
   <p align="center">
   <img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/4f07f2fa-a6ae-4640-8b8e-23e48b27d042" height="300"/>
 </p>
   
-  - Lalu flag akan ditampilkan
+   - Lalu flag akan ditampilkan
  `Flag:  Jarkom2023{y0u_r_g00d_4t_4dr3ssing_MoDvEwK76448553}`
 
  4. Pada soal tersebut diminta untuk menemukan nilai checksum yang didapat dari header pada paket nomor 130.
