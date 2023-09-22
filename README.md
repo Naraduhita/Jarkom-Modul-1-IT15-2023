@@ -73,6 +73,7 @@
 <p align="center">
    <img src="https://i.ibb.co/NLSxMRq/soal3-wireshark.png">   
 </p>
+
 - Setelah dilakukan filter sesuai ketentuan IP 239.255.255.250 dan port 37, maka ditemukan jumlahnya ada 21 dan dapat diinputkan pada terminal
 - Selanjutnya ditanyakan mengenai protokol layer transport, tampak dengan jelas pada wireshark bahwa protokol yang digunakan adalah UDP
 - Jawaban UDP dapat diinputkan pada terminal
