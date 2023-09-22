@@ -6,7 +6,7 @@
 | Oktavia Anggraeni P.    | 5027211001  |
 | Brigita Naraduhita P.P. | 5027211055  |
 
-1. Pada soal tersebut diketahui bahwa user melakukan aktivitas salah satunya mengunggah suatu file.
+### 1. Pada soal tersebut diketahui bahwa user melakukan aktivitas salah satunya mengunggah suatu file.
 
 **Cara mengerjakan:**
    - Download dan buka file yang telah disediakan bertipe wireshark capture file
@@ -36,7 +36,9 @@
    - Lalu flag akan ditampilkan
  `Flag:  Jarkom2023{y0u_r_g00d_4t_4dr3ssing_MoDvEwK76448553}`
 
- 2. Pada soal ini ditanyakan mengenai web server yang digunakan pada portal praktikum Jaringan Komputer
+
+### 2. Pada soal ini ditanyakan mengenai web server yang digunakan pada portal praktikum Jaringan Komputer
+
 **Cara mengerjakan:**
   - Download dan buka file bertipe wireshark capture file atau .pcapng yang ada pada soal
   - Lakukan follow TCP stream pada salah satu paket dengan metode HTTP, misalnya yang memiliki ststus 200 OK
@@ -55,7 +57,9 @@
   
   `Flag: Jarkom2023{9unic0rn_1s_081Cy7OWxq3c9jV_c00l}`
 
- 3. Pada soal ini terdapat keterangan bahwa "Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut"
+
+### 3. Pada soal ini terdapat keterangan bahwa soal ini terkait analisis jaringan
+
 **Cara mengerjakan:**
 - Download dan buka file bertipe wireshark capture file atau .pcap yang ada pada soal
 - Buka terminal misalnya menggunakan linux, masuk ke server pada soal dengan mengetikkan `nc 10.21.78.111 13590`
@@ -76,7 +80,8 @@
 `Flag: Jarkom2023{4nalyz3_is_9118_DzBhQkSjBiD_gr3at}`
 
 
- 4. Pada soal tersebut diminta untuk menemukan nilai checksum yang didapat dari header pada paket nomor 130.
+### 4. Pada soal tersebut diminta untuk menemukan nilai checksum yang didapat dari header pada paket nomor 130.
+
 **Cara mengerjakan:**
    - Mendownload dan buka file yang telah disediakan bertipe wireshark capture file
    - Lakukan pencarian untuk paket nomor 130 sesuai dengan perintah
@@ -94,7 +99,8 @@
    - Lalu flag akan ditampilkan
 `Flag:  Jarkom2023{ch3cksum_is_u5eful_0xj7l4}`
 
-5. Pada soal terdapat 2 buah file, yaitu file bertipe wireshark capture file atau .pcap dan file .zip
+
+### 5. Pada soal terdapat 2 buah file, yaitu file bertipe wireshark capture file atau .pcap dan file .zip
 
 **Cara mengerjakan:**
 - Unduh file .pcap dan .zip yang telah disediakan
@@ -127,7 +133,7 @@
 `Flag: Jarkom2023{k0w4lski_7454_vhvSFuCECCw_4nalys1s}`
 
 
-7. Pada soal tersebut diminta untuk menyebutkan jumlah packet yang menuju IP 184.87.193.88
+### 7. Pada soal tersebut diminta untuk menyebutkan jumlah packet yang menuju IP 184.87.193.88
 
 **Cara mengerjakan:**
    - Download dan buka file yang telah disediakan bertipe wireshark capture file
@@ -147,7 +153,7 @@
    - Lalu flag akan didapatkan.
 `Flag: Jarkom2023{A6J9sXQi0kKgSMM440_4n0th3r_f1lt3ring}`
 
-8. Pada soal tersebut diminta untuk memberikan kueri filter untuk menampilkan protokol paket yang menuju port 80.
+### 8. Pada soal tersebut diminta untuk memberikan kueri filter untuk menampilkan protokol paket yang menuju port 80.
 
 **Cara mengerjakan:**
    - Download dan buka file yang telah disediakan bertipe wireshark capture file
@@ -166,7 +172,7 @@
    - Masukkan kueri tersebut dan flag akan didapatkan.
 `Flag: Jarkom2023{qu3ryyyyying_134463_PiDzRvCjEiA_15_fun}`
 
-9. Pada soal tersebut diminta kueri filter untuk menampilkan paket yang berasal dari alamat `10.51.40.1` tetapi `tidak`menuju ke alamat `10.39.55.34`
+### 9. Pada soal tersebut diminta kueri filter untuk menampilkan paket yang berasal dari alamat `10.51.40.1` tetapi `tidak`menuju ke alamat `10.39.55.34`
    
 **Cara mengerjakan:**
    - Download dan buka file yang telah disediakan bertipe wireshark capture file
@@ -185,9 +191,25 @@
    - Lalu akan didapat flag
 `Flag: Jarkom2023{y3s_its_QkNhShOkOiP_qu3ry1ng}`
 
-10. Pada soal ini ditanyakan mengenai kredensial yang benar ketika user mencoba login menggunakan Telnet
+### 10. Pada soal ini ditanyakan mengenai kredensial yang benar ketika user mencoba login menggunakan Telnet
 
 **Cara mengerjakan:**
+- Download dan buka file bertipe wireshark capture file atau .pcapng yang ada pada soal
+- Lakukan follow TCP stream, di dalamnya terdapat berbagai variasi string dengan format username:password
+<p align="center">
+  <img src="https://i.ibb.co/BPhrmNX/soal10-variasipass.png">
+</p>
+
+- Buka terminal misalnya menggunakan linux, masuk ke server pada soal dengan mengetikkan `nc 10.21.78.111 7373`
+- Karena terdapat banyak variasi, inputkan satu-persatu variasi string username:password pada file wireshark.
+- Ternyata username:password yang sesuai adalah dhafin:kesayangannyak0k0
+<p align="center">
+  <img src="https://i.ibb.co/Ns7sTR3/soal10-nc.png">
+</p>
+
+- Lalu flag akan muncul
+`Flag: Jarkom2023{t3lnet_is_ABCy8xA4y2x3B9yA2_N0tSecu2e}`
+
 
 ### kendala
 - Pada saat pengerjaan laptop saya (Brigita Naraduhita) belum menginstall linux dan pada windows belum mempersiapkan ncat. ketika mendownload ncat kesulitan karena terkena antivirus.
