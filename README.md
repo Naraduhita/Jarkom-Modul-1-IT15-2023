@@ -36,9 +36,47 @@
    - Lalu flag akan ditampilkan
  `Flag:  Jarkom2023{y0u_r_g00d_4t_4dr3ssing_MoDvEwK76448553}`
 
+ 2. Pada soal ini ditanyakan mengenai web server yang digunakan pada portal praktikum Jaringan Komputer
+**Cara mengerjakan:**
+  - Download dan buka file bertipe wireshark capture file atau .pcapng yang ada pada soal
+  - Lakukan follow TCP stream pada salah satu paket dengan metode HTTP, misalnya yang memiliki ststus 200 OK
+  - Selain menggunakan TCP stream, paket HTTP juga dapat dicek menggunakan follow HTTP stream
+  - Ditemukan server bernama gunicorn
+  <p align="center">
+     <img src="https://i.ibb.co/KxYkkBL/soal2-wireshark.png">
+  </p>
   
- 4. Pada soal tersebut diminta untuk menemukan nilai checksum yang didapat dari header pada paket nomor 130.
+  - Buka terminal misalnya menggunakan linux, masuk ke server dengan mengetikkan `nc 10.21.78.111 13579`
+  - Isikan jawaban dengan gunicorn, sesuai dengan yang ditemukan pada wireshark sebelumnya 
+  <p align="center">
+     <img src="https://i.ibb.co/C80LTCt/soal2-ubuntu.png">
+  </p>
+  - Lalu flag akan ditampilkan
+  
+  `Flag: Jarkom2023{9unic0rn_1s_081Cy7OWxq3c9jV_c00l}`
 
+ 3. Pada soal ini terdapat keterangan bahwa "Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut"
+**Cara mengerjakan:**
+- Download dan buka file bertipe wireshark capture file atau .pcap yang ada pada soal
+- Buka terminal misalnya menggunakan linux, masuk ke server pada soal dengan mengetikkan `nc 10.21.78.111 13590`
+<p align="center">
+  <img src="https://i.ibb.co/whCD3ph/soal3-ubuntu.png"> 
+</p>
+
+- Setelah masuk ke server tersebut tampak pertanyaan mengenai berapa paket yang tercapture dengan IP soruce maupun destination 239.255.255.250 dengan port 3702
+- Lakukan filter IP destination dan temukan IP address yang sesuai, yaitu 239.255.255.250
+- Saat melakukan filter dapat ditambahkan filter 3702 dalam kategori string.
+<p align="center">
+   <img src="https://i.ibb.co/NLSxMRq/soal3-wireshark.png">   
+</p>
+- Setelah dilakukan filter sesuai ketentuan IP 239.255.255.250 dan port 37, maka ditemukan jumlahnya ada 21 dan dapat diinputkan pada terminal
+- Selanjutnya ditanyakan mengenai protokol layer transport, tampak dengan jelas pada wireshark bahwa protokol yang digunakan adalah UDP
+- Jawaban UDP dapat diinputkan pada terminal, lalu flag akan ditampilkan
+
+`Flag: Jarkom2023{4nalyz3_is_9118_DzBhQkSjBiD_gr3at}`
+
+
+ 4. Pada soal tersebut diminta untuk menemukan nilai checksum yang didapat dari header pada paket nomor 130.
 **Cara mengerjakan:**
    - Mendownload dan buka file yang telah disediakan bertipe wireshark capture file
    - Lakukan pencarian untuk paket nomor 130 sesuai dengan perintah
@@ -56,6 +94,37 @@
    - Lalu flag akan ditampilkan
 `Flag:  Jarkom2023{ch3cksum_is_u5eful_0xj7l4}`
 
+5. Pada soal terdapat 2 buah file, yaitu file bertipe wireshark capture file atau .pcap dan file .zip
+
+**Cara mengerjakan:**
+- Unduh file .pcap dan .zip yang telah disediakan
+- Buka file .pcap dengan wireshark
+- Lakukan follow TCP stream dan di dalamnya tampak ada password untuk membuka file zip
+<p align="center">
+   <img src="https://i.ibb.co/HV6XZhX/soal5-pass.png"">
+</p>
+
+- Lakukan decode untuk mendapatkan password file zip. Decode bisa menggunakan berbagai web, misalnya base64decode.org, sesuai tipe password yang tertulis
+<p align="center">
+   <img src="https://i.ibb.co/tcJLn0f/soal5-decode.png">
+</p>
+- Buka file connect.txt yang terletak dalam file .zip yang telah diunduh. Untuk membukanya, gunakan password yang telah ditemukan
+- Dalam file connect.txt tampak cara untuk masuk ke server
+- Buka terminal misalnya menggunakan linux, masuk ke server soal dengan mengetikkan `nc 10.21.78.111 11111`
+- Dalam soal terdapat soal mengenai paket yang berhasil di capture, port yang digunakan pada service SMTP, serta IP mana yang menggunakan public IP
+<p align="center">
+   <img src="https://i.ibb.co/jL4mL3v/soal5-wireshark.png">
+</p>
+- Untuk menjawab satu persatu dapat dilihat kembali pada file .pcap yang telah dibuka tadi, pada bagian protokol SMTP terdapat length 60 yang merupakan jawaban untuk paket yang berhasil dicapture
+- Selanjutnya untuk port yang digunakan pada service SMTP, saya mencoba pada bagian bawahnya yang bertanda panah 1470->25, dan ternyata benar 25 jawabannya
+- Jawaban terakhir juga terdapat pada gambar wireshark di atas. IP yang menggunakan public IP merupakan IP yang sama yang berhasil mengcapture paket, yaitu 74.53.140.153
+- Berikut merupakan tampilan terminal ubuntu saat dijalankan
+<p align="center">
+   <img src="https://i.ibb.co/q17sN9K/soal5-nc.png">
+</p>
+
+- Lalu flag akan ditampilkan
+`Flag: Jarkom2023{k0w4lski_7454_vhvSFuCECCw_4nalys1s}`
 
 
 7. Pada soal tersebut diminta untuk menyebutkan jumlah packet yang menuju IP 184.87.193.88
@@ -115,6 +184,10 @@
 
    - Lalu akan didapat flag
 `Flag: Jarkom2023{y3s_its_QkNhShOkOiP_qu3ry1ng}`
+
+10. Pada soal ini ditanyakan mengenai kredensial yang benar ketika user mencoba login menggunakan Telnet
+
+**Cara mengerjakan:**
 
 ### kendala
 - Pada saat pengerjaan laptop saya (Brigita Naraduhita) belum menginstall linux dan pada windows belum mempersiapkan ncat. ketika mendownload ncat kesulitan karena terkena antivirus.
