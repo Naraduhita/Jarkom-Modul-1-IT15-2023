@@ -105,12 +105,12 @@
    - `p.src == 10.51.40.1` berfungsi untuk menampilkan semua paket yang berasal dari alamat tersebut. 
    - `ip.dst != 10.39.55.34` berfungsi untuk menampilkan paket selain yang berasal dari alamat tersebut.
 <p align="center">
-  <img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/87917d00-df33-4d8b-9e3c-a5734576c3da" height="300"/>
+  <img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/87917d00-df33-4d8b-9e3c-a5734576c3da"/>
 </p>
 
    - Lalu buka terminal dan ketikkan `ncat 10.21.78.111 13591` untuk mengakses ke alamat IP 10.21.78.111 pada port 7272 menggunakan netcat.
 <p align="center">
-  <img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/7803639d-30fd-48ce-93e2-0765d6c84365" height="300"/>
+  <img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/7803639d-30fd-48ce-93e2-0765d6c84365"/>
 </p>
 
    - Lalu akan didapat flag
