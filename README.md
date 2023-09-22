@@ -43,8 +43,14 @@
    - Mendownload dan buka file yang telah disediakan bertipe wireshark capture file
    - Lakukan pencarian untuk paket nomor 130 sesuai dengan perintah
    - Analisis paket tersebut dan mencari nilai checksum. Di dapatkan: `Checksum: 0x18e5`
+   <p align="center">
+<img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/c06147ef-bb46-432d-a657-387f91ebb2ea" height="150"/>
+</p>
    - Lalu buka terminal dan ketikkan `ncat 10.21.78.111 13591` untuk mengakses ke alamat IP 10.21.78.111 pada port 13591 menggunakan netcat.
    - Ketikkan  nilai checksum `0x18e5` sesuai dengan nilai yang didapatkan.
+<p align="center">
+<img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/91c1f55e-f469-4342-9323-a8ec38eaf006" height="150"/>
+</p>
    - Lalu flag akan ditampilkan
 `Flag:  Jarkom2023{ch3cksum_is_u5eful_0xj7l4}`
 
