@@ -98,13 +98,14 @@
 `Flag: Jarkom2023{qu3ryyyyying_134463_PiDzRvCjEiA_15_fun}`
 
 9. Pada soal tersebut diminta kueri filter untuk menampilkan paket yang berasal dari alamat `10.51.40.1` tetapi `tidak`menuju ke alamat `10.39.55.34`
+   
 **Cara mengerjakan:**
-- Download dan buka file yang telah disediakan bertipe wireshark capture file
-- Kueri filter pada Wireshark yang dapat digunakan untuk menampilkan paket yang menuju port 80 dengan dua kriteria ialah `ip.src == 10.51.40.1 && ip.dst != 10.39.55.34`
-- `p.src == 10.51.40.1` berfungsi untuk menampilkan semua paket yang berasal dari alamat tersebut. 
-- `ip.dst != 10.39.55.34` berfungsi untuk menampilkan paket selain yang berasal dari alamat tersebut.
-- Lalu buka terminal dan ketikkan `ncat 10.21.78.111 13591` untuk mengakses ke alamat IP 10.21.78.111 pada port 7272 menggunakan netcat.
-- Lalu akan didapat flag
+   - Download dan buka file yang telah disediakan bertipe wireshark capture file
+   - Kueri filter pada Wireshark yang dapat digunakan untuk menampilkan paket yang menuju port 80 dengan dua kriteria ialah `ip.src == 10.51.40.1 && ip.dst != 10.39.55.34`
+   - `p.src == 10.51.40.1` berfungsi untuk menampilkan semua paket yang berasal dari alamat tersebut. 
+   - `ip.dst != 10.39.55.34` berfungsi untuk menampilkan paket selain yang berasal dari alamat tersebut.
+   - Lalu buka terminal dan ketikkan `ncat 10.21.78.111 13591` untuk mengakses ke alamat IP 10.21.78.111 pada port 7272 menggunakan netcat.
+   - Lalu akan didapat flag
 `Flag: Jarkom2023{y3s_its_QkNhShOkOiP_qu3ry1ng}`
 
 ### kendala
