@@ -13,12 +13,12 @@
    - Klikkan find dan ketikkan `ftp || ftp-data` untuk mengambil paket-paket yang terkait dengan protokol FTP (File Transfer Protocol) atau paket data yang dikirim melalui FTP. 
    - User melakukan aktivitas mengunggah suatu file. Maka cari perintah bertuliskan `STOR` yang berfungsi untuk mengupload file ke FTP server.
 <p align="center">
-<img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/ad6b553f-9713-4e17-ae06-810597c068f4" height="150"/>
+<img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/ad6b553f-9713-4e17-ae06-810597c068f4" height="100"/>
 </p>
 
    - Lalu analisis dan cari sequence number (raw), acknowledge number (raw) pada paket tersebut  yang menunjukkan aktivitas.
 <p align="center">
-<img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/f9c5fa48-e76b-4731-8dae-d6f92ea70812" height="300"/>
+<img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/f9c5fa48-e76b-4731-8dae-d6f92ea70812"/>
 </p>
 
    - Lalu klik paket satu dibawahnya yang paket ACK, ACK menandakan data sebelumnya telah diterima dan penerima siap menerima data berikutnya.
