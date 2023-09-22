@@ -13,12 +13,12 @@
    - Klikkan find dan ketikkan `ftp || ftp-data` untuk mengambil paket-paket yang terkait dengan protokol FTP (File Transfer Protocol) atau paket data yang dikirim melalui FTP. 
    - User melakukan aktivitas mengunggah suatu file. Maka cari perintah bertuliskan `STOR` yang berfungsi untuk mengupload file ke FTP server.
 <p align="center">
-<img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/ad6b553f-9713-4e17-ae06-810597c068f4" height="100"/>
+<img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/ad6b553f-9713-4e17-ae06-810597c068f4" height="150"/>
 </p>
 
    - Lalu analisis dan cari sequence number (raw), acknowledge number (raw) pada paket tersebut  yang menunjukkan aktivitas.
 <p align="center">
-<img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/f9c5fa48-e76b-4731-8dae-d6f92ea70812"/>
+<img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/f9c5fa48-e76b-4731-8dae-d6f92ea70812" height="300"/>
 </p>
 
    - Lalu klik paket satu dibawahnya yang paket ACK, ACK menandakan data sebelumnya telah diterima dan penerima siap menerima data berikutnya.
@@ -84,14 +84,14 @@
    - Download dan buka file yang telah disediakan bertipe wireshark capture file
    - Kueri filter pada Wireshark yang dapat digunakan untuk menampilkan paket yang menuju port 80 dengan dua kriteria ialah `tcp.dstport == 80 || udp.dstport == 80`
  <p align="center">
-  <img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/8ecfce2e-31df-48d6-aff3-b10c197127cf" height="150"/>
+  <img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/8ecfce2e-31df-48d6-aff3-b10c197127cf" height="100"/>
 </p>
 
    - `tcp.dstport == 80` digunakan untuk menampilkan semua paket dengan protokol TCP yang menuju port (destination port) 80
    - `udp.dstport == 80` digunakan untuk menampilkan semua paket dengan protokol UDP yang menuju port (destination port) 80
    - Lalu buka terminal dan ketikkan `ncat 10.21.78.111 7171`  untuk mengakses ke alamat IP 10.21.78.111 pada port  7171 menggunakan netcat.
  <p align="center">
-  <img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/0851d49d-a1db-4cee-b8ac-4bed7be48839" height="300"/>
+  <img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/0851d49d-a1db-4cee-b8ac-4bed7be48839"/>
 </p>
 
    - Masukkan kueri tersebut dan flag akan didapatkan.
