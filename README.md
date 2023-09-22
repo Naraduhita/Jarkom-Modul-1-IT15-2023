@@ -59,17 +59,25 @@
 
 
 7. Pada soal tersebut diminta untuk menyebutkan jumlah packet yang menuju IP 184.87.193.88
+
 **Cara mengerjakan:**
-- Download dan buka file yang telah disediakan bertipe wireshark capture file
-- Klikkan `find a packet` dan ketikkan `ip.dst == 184.87.193.88` untuk mengambil semua paket yang memiliki alamat tujuan (destination IP address) 184.87.193.88. 
-- Lalu akan menampilkan semua paket yang ditujukan ke alamat IP tersebut.
-- Lalu hitung jumlah paket yang sesuai dan didapatkan total `6` paket
-- Lalu buka terminal dan ketikkan `nc 10.21.78.111 6565` untuk mengakses ke alamat IP 10.21.78.111 pada port 6565 menggunakan netcat.
-- Ketikkan `6` sesuai dengan jumlah paket yang didapatkan.
-- Lalu flag akan didapatkan.
+   - Download dan buka file yang telah disediakan bertipe wireshark capture file
+   - Klikkan `find a packet` dan ketikkan `ip.dst == 184.87.193.88` untuk mengambil semua paket yang memiliki alamat tujuan (destination IP address) 184.87.193.88. 
+   - Lalu akan menampilkan semua paket yang ditujukan ke alamat IP tersebut.
+   - Lalu hitung jumlah paket yang sesuai dan didapatkan total `6` paket
+<p align="center">
+  <img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/65b11161-945f-41f5-8531-b04eb01bdce0" height="300"/>
+</p>
+
+   - Lalu buka terminal dan ketikkan `nc 10.21.78.111 6565` untuk mengakses ke alamat IP 10.21.78.111 pada port 6565 menggunakan netcat.
+   - Ketikkan `6` sesuai dengan jumlah paket yang didapatkan.
+<p align="center">
+  <img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/c21b5ab7-a3df-4126-ae11-98f55cfc31ed" height="300"/>
+</p>
+   - Lalu flag akan didapatkan.
 `Flag: Jarkom2023{A6J9sXQi0kKgSMM440_4n0th3r_f1lt3ring}`
 
-8. Pada soal tersebut diminta untuk memberikan kueri filter untuk menampilkan protokol paket yang menuju port 80.
+9. Pada soal tersebut diminta untuk memberikan kueri filter untuk menampilkan protokol paket yang menuju port 80.
 **Cara mengerjakan:**
 - Download dan buka file yang telah disediakan bertipe wireshark capture file
 - Kueri filter pada Wireshark yang dapat digunakan untuk menampilkan paket yang menuju port 80 dengan dua kriteria ialah `tcp.dstport == 80 || udp.dstport == 80`
