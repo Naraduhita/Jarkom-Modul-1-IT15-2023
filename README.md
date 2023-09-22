@@ -116,6 +116,7 @@
 <p align="center">
    <img src="https://i.ibb.co/tcJLn0f/soal5-decode.png">
 </p>
+
 - Buka file connect.txt yang terletak dalam file .zip yang telah diunduh. Untuk membukanya, gunakan password yang telah ditemukan
 - Dalam file connect.txt tampak cara untuk masuk ke server
 - Buka terminal misalnya menggunakan linux, masuk ke server soal dengan mengetikkan `nc 10.21.78.111 11111`
