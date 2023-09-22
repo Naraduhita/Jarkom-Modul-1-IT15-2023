@@ -74,17 +74,19 @@
 <p align="center">
   <img src="https://github.com/Naraduhita/Jarkom-Modul-1-IT15-2023/assets/102397053/c21b5ab7-a3df-4126-ae11-98f55cfc31ed" height="300"/>
 </p>
+
    - Lalu flag akan didapatkan.
 `Flag: Jarkom2023{A6J9sXQi0kKgSMM440_4n0th3r_f1lt3ring}`
 
-9. Pada soal tersebut diminta untuk memberikan kueri filter untuk menampilkan protokol paket yang menuju port 80.
+8. Pada soal tersebut diminta untuk memberikan kueri filter untuk menampilkan protokol paket yang menuju port 80.
+
 **Cara mengerjakan:**
-- Download dan buka file yang telah disediakan bertipe wireshark capture file
-- Kueri filter pada Wireshark yang dapat digunakan untuk menampilkan paket yang menuju port 80 dengan dua kriteria ialah `tcp.dstport == 80 || udp.dstport == 80`
-- `tcp.dstport == 80` digunakan untuk menampilkan semua paket dengan protokol TCP yang menuju port (destination port) 80
-- `udp.dstport == 80` digunakan untuk menampilkan semua paket dengan protokol UDP yang menuju port (destination port) 80
-- Lalu buka terminal dan ketikkan `ncat 10.21.78.111 7171`  untuk mengakses ke alamat IP 10.21.78.111 pada port  7171 menggunakan netcat.
-- Masukkan kueri tersebut dan flag akan didapatkan.
+   - Download dan buka file yang telah disediakan bertipe wireshark capture file
+   - Kueri filter pada Wireshark yang dapat digunakan untuk menampilkan paket yang menuju port 80 dengan dua kriteria ialah `tcp.dstport == 80 || udp.dstport == 80`
+   - `tcp.dstport == 80` digunakan untuk menampilkan semua paket dengan protokol TCP yang menuju port (destination port) 80
+   - `udp.dstport == 80` digunakan untuk menampilkan semua paket dengan protokol UDP yang menuju port (destination port) 80
+   - Lalu buka terminal dan ketikkan `ncat 10.21.78.111 7171`  untuk mengakses ke alamat IP 10.21.78.111 pada port  7171 menggunakan netcat.
+   - Masukkan kueri tersebut dan flag akan didapatkan.
 `Flag: Jarkom2023{qu3ryyyyying_134463_PiDzRvCjEiA_15_fun}`
 
 9. Pada soal tersebut diminta kueri filter untuk menampilkan paket yang berasal dari alamat `10.51.40.1` tetapi `tidak`menuju ke alamat `10.39.55.34`
