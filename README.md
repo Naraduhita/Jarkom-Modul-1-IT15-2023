@@ -11,6 +11,8 @@
 - Download dan buka file yang telah disediakan bertipe wireshark capture file
 - Klikkan find dan ketikkan `ftp || ftp-data` untuk mengambil paket-paket yang terkait dengan protokol FTP (File Transfer Protocol) atau paket data yang dikirim melalui FTP. 
 - User melakukan aktivitas mengunggah suatu file. Maka cari perintah bertuliskan `STOR` yang berfungsi untuk mengupload file ke FTP server.
+<img src=" " height="300"/>
+ 
 - Lalu analisis dan cari sequence number (raw), acknowledge number (raw) pada paket tersebut  yang menunjukkan aktivitas.
 - Lalu klik paket satu dibawahnya yang paket ACK, ACK menandakan data sebelumnya telah diterima dan penerima siap menerima data berikutnya.
 - Lalu analisis dan cari sequence number (raw), acknowledge number (raw) pada paket tersebut  yang menunjukkan response dari aktivitas tersebut.
