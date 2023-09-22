@@ -69,13 +69,14 @@
 
 - Setelah masuk ke server tersebut tampak pertanyaan mengenai berapa paket yang tercapture dengan IP soruce maupun destination 239.255.255.250 dengan port 3702
 - Lakukan filter IP destination dan temukan IP address yang sesuai, yaitu 239.255.255.250
-- Saat melakukan filter dapat ditambahkan filter 3702 dalam kategori string.
+- Saat melakukan filter dapat ditambahkan filter 3702 dalam kategori string
 <p align="center">
    <img src="https://i.ibb.co/NLSxMRq/soal3-wireshark.png">   
 </p>
 - Setelah dilakukan filter sesuai ketentuan IP 239.255.255.250 dan port 37, maka ditemukan jumlahnya ada 21 dan dapat diinputkan pada terminal
 - Selanjutnya ditanyakan mengenai protokol layer transport, tampak dengan jelas pada wireshark bahwa protokol yang digunakan adalah UDP
-- Jawaban UDP dapat diinputkan pada terminal, lalu flag akan ditampilkan
+- Jawaban UDP dapat diinputkan pada terminal
+- Lalu flag akan ditampilkan
 
 `Flag: Jarkom2023{4nalyz3_is_9118_DzBhQkSjBiD_gr3at}`
 
