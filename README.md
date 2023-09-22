@@ -123,6 +123,7 @@
 <p align="center">
    <img src="https://i.ibb.co/jL4mL3v/soal5-wireshark.png">
 </p>
+
 - Untuk menjawab satu persatu dapat dilihat kembali pada file .pcap yang telah dibuka tadi, pada bagian protokol SMTP terdapat length 60 yang merupakan jawaban untuk paket yang berhasil dicapture
 - Selanjutnya untuk port yang digunakan pada service SMTP, saya mencoba pada bagian bawahnya yang bertanda panah 1470->25, dan ternyata benar 25 jawabannya
 - Jawaban terakhir juga terdapat pada gambar wireshark di atas. IP yang menggunakan public IP merupakan IP yang sama yang berhasil mengcapture paket, yaitu 74.53.140.153
